@@ -1,4 +1,4 @@
-import { Box, Text, useColorModeValue, VStack } from '@chakra-ui/react';
+import { Box, Link, Text, useColorModeValue, VStack } from '@chakra-ui/react';
 import React from 'react';
 import EmailNumberHeading from '../EmailNumberHeading';
 
@@ -44,29 +44,37 @@ function SalesEmailTwo({
         <Text>{greeting}</Text>
 
         <Text>
-          Who is the best person in{' '}
+          I run a freelance design and development studio in Auckland and would
+          love to chat about how we can make sure the{' '}
           <Text as="span" display="inline" color="purple.500" fontWeight="500">
             {companyName}
           </Text>{' '}
-          to talk with about a new website project?
+          website is putting its best foot forward.
         </Text>
 
         <Text>
-          I run a freelance design and development studio in Auckland and would
-          love to chat about how we can make sure your website is putting its
-          best foot forward.
+          (ANALYSIS OF EXISTING WEBSITE). Industry resources such as the
+          <Link
+            color="blue.500"
+            href="https://developers.google.com/web/fundamentals/design-and-ux/principles"
+          >
+            {' '}
+            Google Developer Program
+          </Link>{' '}
+          and the{' '}
+          <Link
+            color="blue.500"
+            href="https://blog.hubspot.com/blog/tabid/6307/bid/30557/6-guidelines-for-exceptional-website-design-and-usability.aspx"
+          >
+            Hubspot Blog
+          </Link>{' '}
+          show how crucial a modern and mobile friendly website are to helping
+          your business succeed.
         </Text>
 
         <Text>
-          (ANALYSIS OF EXISTING WEBSITE). Industry resources such as the Google
-          Developer Program and the Hubspot Blog show how crucial these
-          (EXISTING WEBSITE) can be to helping your business succeed, and it's
-          important to do regular maintenance and improvements.
-        </Text>
-
-        <Text>
-          I'd appreciate you putting me in touch with the right person to
-          explore a customised solution for your business needs.
+          I'd appreciate you putting me in touch with the right person to talk
+          about building a customised solution for your specific business needs.
         </Text>
 
         <Text>{signoff}</Text>

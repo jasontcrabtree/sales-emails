@@ -43,7 +43,29 @@ function SalesEmailSix({
         <Text>- - -</Text>
         <Text>{greeting}</Text>
 
-        <Text>TODO</Text>
+        <Text>
+          I run a website Design and Development Studio that works specifically
+          with financial and professional services companies like{' '}
+          <Text as="span" display="inline" color="purple.500" fontWeight="500">
+            {companyName}
+          </Text>
+          . I can see that your existing website is looking great and has been
+          recently worked on. As such, I'm contacting you to ask if you have
+          plans for any other digital strategy projects in the next few months?
+        </Text>
+
+        <Text>
+          These might include projects such as software integrations, using new
+          software tools, increased web-app functionality, digital brand
+          development projects or other similar projects?
+        </Text>
+
+        <Text>
+          If so, I'd love to put forward a proposal of how I can help. I work
+          with a focus on delivering business value — pairing design and
+          development with strategy work, measurable performance improvements
+          and long-term change.
+        </Text>
 
         <Text>{signoff}</Text>
         <Text>- - -</Text>
